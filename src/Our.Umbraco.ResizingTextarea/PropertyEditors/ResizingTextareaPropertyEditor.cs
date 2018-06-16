@@ -1,4 +1,5 @@
 ﻿using ClientDependency.Core;
+using System.Collections.Generic;
 using Umbraco.Core.PropertyEditors;
 using Umbraco.Web.PropertyEditors;
 
@@ -10,6 +11,14 @@ namespace Our.Umbraco.ResizingTextarea.PropertyEditors
     public class ResizingTextareaPropertyEditor : PropertyEditor
     {
         public const string PropertyEditorAlias = "Our.Umbraco.ResizingTextarea";
+
+        public ResizingTextareaPropertyEditor() : base()
+        {
+            this.DefaultPreValues = new Dictionary<string, object>
+            {
+                { "style", "width:100%;" }
+            };
+        }
 
         protected override PreValueEditor CreatePreValueEditor()
         {

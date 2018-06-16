@@ -1,5 +1,9 @@
 ﻿﻿<div ng-controller="ResizingTextareaController" class="resizing-textarea">
 
-    <textarea ng-model="model.value" auto-resize style="resize:none;width:90%;"></textarea>
+    <textarea ng-model="model.value" 
+              auto-resize 
+              class="umb-editor umb-textarea textstring" 
+              style="resize:none;{{model.config.style}}">
+    </textarea>
 
 </div>
