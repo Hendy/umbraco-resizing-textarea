@@ -2,7 +2,7 @@
 
 namespace Our.Umbraco.ResizingTextarea.PropertyEditors
 {
-    internal class ResizeableTextareaPreValueEditor : PreValueEditor
+    internal class ResizingTextareaPreValueEditor : PreValueEditor
     {
     }
 }

@@ -37,6 +37,6 @@ using Our.Umbraco.EmbeddedResource;
 [assembly: AssemblyFileVersion("0.1.0.0")]
 
 // register the embedded resoures (authenticated Umbraco users only)
-[assembly: EmbeddedResourceProtected("Our.Umbraco.ResizeableTextarea.Resources.NullableBoolean.css", "~/App_Plugins/ResizeableTextarea/ResizeableTextarea.css")]
-[assembly: EmbeddedResourceProtected("Our.Umbraco.ResizeableTextarea.Resources.NullableBoolean.html", "~/App_Plugins/ResizeableTextarea/ResizeableTextarea.html")]
-[assembly: EmbeddedResourceProtected("Our.Umbraco.ResizeableTextarea.Resources.NullableBoolean.js", "~/App_Plugins/ResizeableTextarea/ResizeableTextarea.js")]
+[assembly: EmbeddedResourceProtected("Our.Umbraco.ResizingTextarea.Resources.ResizingTextarea.css", "~/App_Plugins/ResizingTextarea/ResizingTextarea.css")]
+[assembly: EmbeddedResourceProtected("Our.Umbraco.ResizingTextarea.Resources.ResizingTextarea.html", "~/App_Plugins/ResizingTextarea/ResizingTextarea.html")]
+[assembly: EmbeddedResourceProtected("Our.Umbraco.ResizingTextarea.Resources.ResizingTextarea.js", "~/App_Plugins/ResizingTextarea/ResizingTextarea.js")]

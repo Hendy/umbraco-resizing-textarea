@@ -177,17 +177,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PropertyEditors\ResizeableTextareaPreValueEditor.cs" />
-    <Compile Include="PropertyEditors\ResizeableTextareaPropertyEditor.cs" />
+    <Compile Include="PropertyEditors\ResizingTextareaPreValueEditor.cs" />
+    <Compile Include="PropertyEditors\ResizingTextareaPropertyEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\ResizableTextarea.css" />
-    <EmbeddedResource Include="Resources\ResizableTextarea.html" />
-    <EmbeddedResource Include="Resources\ResizableTextarea.js" />
+    <EmbeddedResource Include="Resources\ResizingTextarea.css" />
+    <EmbeddedResource Include="Resources\ResizingTextarea.html" />
+    <EmbeddedResource Include="Resources\ResizingTextarea.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" C:\Users\Hendy\Documents\Projects\Experiments\Umbraco7.6\bin
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>
