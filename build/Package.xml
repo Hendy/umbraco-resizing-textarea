@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umbPackage>
+  
+  <info>    
+    <package>
+      <name>Resizing Textarea</name>
+      <version>0.1.0</version>
+      <license url="https://github.com/Hendy/umbraco-resizing-textarea/blob/master/LICENSE">license</license>
+      <url>https://github.com/Hendy/umbraco-resizing-textarea</url>
+      <requirements>
+        <major>7</major>
+        <minor>2</minor>
+        <patch>3</patch>
+      </requirements>
+    </package>    
+    <author>
+      <name>Hendy Racher</name>
+      <website>https://github.com/Hendy/umbraco-resizing-textarea/graphs/contributors</website>
+    </author>    
+    <readme>
+      <![CDATA[Property editor for a textarea that resizes to fit the amount of text.]]>
+    </readme>    
+  </info>
+
+  <DocumentTypes/>
+  <Templates/>
+  <Stylesheets/>
+  <Macros/>
+  <DictionaryItems/>
+  <Languages/>
+  <DataTypes/>
+  <Actions/>
+  <control/>
+
+  <files>
+    <file>
+      <guid>647d4e76-ca1d-4547-a8b2-6b20ebc6236e.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Our.Umbraco.ResizingTextarea.dll</orgName>
+    </file>
+    <file>
+      <guid>7ebc8f66-f326-4ebb-af03-53bbd0e5d45d.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Our.Umbraco.EmbeddedResource.dll</orgName>
+    </file>
+  </files>
+
+</umbPackage>
