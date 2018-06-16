@@ -42,5 +42,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ResizableTextarea.css" />
+    <EmbeddedResource Include="Resources\ResizableTextarea.html" />
+    <EmbeddedResource Include="Resources\ResizableTextarea.js" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
