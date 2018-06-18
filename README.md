@@ -1,7 +1,7 @@
 # Umbraco Resizing Textarea
 Property editor for a textarea that resizes to fit the amount of text.
 
-[The NuGet package](https://www.nuget.org/packages/Our.Umbraco.CheckboxTable) installs a single assembly _Our.Umbraco.CheckboxTable.dll_ which has a dependency on [Umbraco Embedded Resource](https://github.com/Hendy/umbraco-embedded-resource).
+Installed as a single assembly _Our.Umbraco.ResizingTextarea.dll_ which has a dependency on [Umbraco Embedded Resource](https://github.com/Hendy/umbraco-embedded-resource).
 
 ## Property Editor
 
